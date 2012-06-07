@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
         version="1.1.2.4" id="testswipe">  
-    <name>BestRSS</name>
+    <name>TestSwipe</name>
     <access uri ="*"/>
     <author>My name</author>
     <description>Test Swipe</description>

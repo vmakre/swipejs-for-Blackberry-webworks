@@ -1,0 +1,4 @@
+Javascript touch scroller mini framewok
+device independent .I made simple project
+for Blackberry Playbook but this can work on other phones also
+because there is no platform specific touch api functions.

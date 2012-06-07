@@ -1,0 +1,49 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> 
+ <script src="jsapi.js" type="text/javascript"></script>
+ <script type="text/javascript" src="swipe.js"></script>
+ <script type="text/javascript">
+function blackberrybrowser(){
+  var args = new   blackberry.invoke.BrowserArguments(zemilinkot);
+  blackberry.invoke.invoke(blackberry.invoke.APP_BROWSER, args);
+}
+
+window.onload=function(){
+slider = new Swipe(document.getElementById('slider'));
+}
+
+//window.mySwipe = new Swipe(
+ // document.getElementById('slider')
+//);
+</script>
+
+
+ </script>
+ <link href='css/style.css' rel='stylesheet'/>
+</head>
+<body>
+<div id="gallery">
+
+  <div id="slider" style="overflow:hidden; visibility: visible;">
+    <ul style="list-style: none outside none; width: 1440px; -moz-transition-duration: 0ms; -moz-transform: translate3d(0px, 0pt, 0pt);">
+      <li style="display: table-cell; width: 480px; vertical-align: top;"><div>1</div></li>
+      <li style="display: table-cell; width: 480px; vertical-align: top;"><div>2</div></li>
+      <li style="display: table-cell; width: 480px; vertical-align: top;"><div>3</div></li>
+    </ul>
+  </div>
+  </div>
+  <div id="galnav">
+  <nav>
+    <a onclick="slider.prev();return false;" id="prev" href="#"><em>prev</em></a>
+    <span id="position"><em class="on">•</em><em>•</em><em>•</em></span>
+    <a onclick="slider.next();return false;" id="next" href="#"><em>next</em></a>
+  </nav>
+
+</div>
+
+
+
+</body> 
+</html> 

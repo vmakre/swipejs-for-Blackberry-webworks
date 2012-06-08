@@ -6,7 +6,7 @@
     <access uri ="*"/>
     <author>My name</author>
     <description>Test Swipe</description>
-    <icon src="images/icon.png"/>
+    <icon src="images/blck.png"/>
     <content src="index.html"/>
     <feature id="blackberry.invoke" />
     <feature id="blackberry.invoke.BrowserArguments" />
